@@ -1,0 +1,83 @@
+/* src/App.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: #f8e4eb;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("./floral-bg.png") no-repeat center/cover;
+    padding: 20px;
+  }
+  
+  /* Welcome text */
+  .welcome-text {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Main text with responsive font size */
+  .main-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Highlighted text */
+  .highlight {
+    color: #666;
+  }
+  
+  /* Button styles */
+  .get-started-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .get-started-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .arrow {
+    font-weight: bold;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .main-text {
+      font-size: 24px;
+    }
+    .welcome-text {
+      font-size: 16px;
+    }
+    .get-started-btn {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-text {
+      font-size: 20px;
+    }
+    .welcome-text {
+      font-size: 14px;
+    }
+    .get-started-btn {
+      font-size: 14px;
+    }
+  }
+  
